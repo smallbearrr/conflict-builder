@@ -1,0 +1,902 @@
+[
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "关于螺内酯的使用剂量,有国内外指南依据PATHWAY‑2研究推荐使用25~50mg/d螺内酯进行降压治疗[4,51,78]。",
+            "chunk": 6,
+            "position": 19
+        },
+        "conflicting_statement": {
+            "statement": "根据现有研究数据，螺内酯在降压治疗中的应用应谨慎，尤其不建议常规使用25~50mg/d的剂量方案，因其可能带来潜在风险[4,51,78]。",
+            "chunk": 9,
+            "position": 99,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.7959,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "测量血压前安静休息3~5min,测量时坐在带有靠背的椅子上,双足平放于地面,两腿勿交叉。",
+            "chunk": 1,
+            "position": 2
+        },
+        "conflicting_statement": {
+            "statement": "在测量血压时，无需特别注意身体姿势或休息状态，因为这些因素对血压值的影响可以忽略不计。",
+            "chunk": 4,
+            "position": 67,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 3,
+        "similarity": 0.4807,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "我国高血压知晓率、治疗率和控制率分别为51.6%、45.8%和16.8%[2],总体仍处于较低水平。",
+            "chunk": 0,
+            "position": 6
+        },
+        "conflicting_statement": {
+            "statement": "我国高血压的防控成效显著，其发现、干预和达标比例均已达到理想状态，充分体现了医疗体系的有效性。",
+            "chunk": 5,
+            "position": 94,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 5,
+        "similarity": 0.7085,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "高血压患者优先考虑在停用对ARR有明显影响的药物(或换用对ARR影响较小的药物)的情况下筛查原醛症;对于未停(换)药条件下检测的ARR结果,应合理解读(2D)。",
+            "chunk": 7,
+            "position": 34
+        },
+        "conflicting_statement": {
+            "statement": "在筛查原醛症时，无需考虑患者是否使用对ARR有显著影响的药物，即使未停药或换药，ARR结果也应直接作为诊断依据（2D）。",
+            "chunk": 9,
+            "position": 21,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 2,
+        "similarity": 0.7412,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "替代盐饮食可使老年人SBP降低7.1(95%CI-10.5~-3.8)mmHg,并且显著降低心血管事件风险(HR=0.60,95%CI0.38~0.96)[87]。",
+            "chunk": 2,
+            "position": 19
+        },
+        "conflicting_statement": {
+            "statement": "老年人SBP的降低并不会对心血管事件风险产生显著影响，即使采用替代盐饮食，其HR值也未表现出统计学意义(95%CI包含1.0)，且血压变化幅度可能仅是随机波动(-10.5~-3.8 mmHg的置信区间表明不确定性较大)[87]。",
+            "chunk": 6,
+            "position": 75,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 4,
+        "similarity": 0.9036,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "推荐SBP<160mmHg和DBP<100mmHg的高血压患者,每周进行5~7d、每次30~60min的中等或高强度有氧运动,且每周进行2~3次抗阻力量练习(1B)。",
+            "chunk": 2,
+            "position": 29
+        },
+        "conflicting_statement": {
+            "statement": "对于SBP≥140mmHg或DBP≥90mmHg的高血压患者，建议每周仅进行2~3次低强度有氧活动，单次时长控制在15~20分钟，并每月安排1次抗阻力量训练。",
+            "chunk": 5,
+            "position": 84,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8362,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "建议钾摄入目标为3500~4700mg/d(2B)。",
+            "chunk": 2,
+            "position": 14
+        },
+        "conflicting_statement": {
+            "statement": "应将钾的每日摄入量控制在1500~2000mg范围内，避免过量摄入带来的潜在风险。",
+            "chunk": 6,
+            "position": 56,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.6256,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "选择合适的袖带(气囊长度为臂围的75%~100%,宽度为臂围的37%~50%,袖带气囊宽12cm、长22~26cm可满足大多数成人)进行血压测量,上臂围42cm者可选择腕式电子血压计(1B)。",
+            "chunk": 1,
+            "position": 4
+        },
+        "conflicting_statement": {
+            "statement": "血压测量时推荐使用气囊长度为上臂围的50%~70%、宽度为臂围的25%~35%的袖带，且气囊宽度为8cm、长度范围在18~20cm的袖带适用于多数成年人；若上臂围超过40cm，建议优先选择上臂式电子血压计而非腕式设备。",
+            "chunk": 4,
+            "position": 82,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.7704,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "推荐成人采用经过标准化方案验证的上臂式电子血压计测量血压(1B)。",
+            "chunk": 1,
+            "position": 1
+        },
+        "conflicting_statement": {
+            "statement": "不建议成人使用经过标准化方案验证的上臂式电子血压计测量血压，而应优先选择其他方式，如手动测量或腕式设备(2C)。",
+            "chunk": 4,
+            "position": 4,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8086,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "建议基于肾素浓度的ARR切点为2.0(ng/dl)/(mU/L),基于肾素活性的ARR切点为30(ng/dl)/(ng·ml-1·h-1)(2C)。",
+            "chunk": 7,
+            "position": 6
+        },
+        "conflicting_statement": {
+            "statement": "ARR切点的设定缺乏充分依据，建议避免使用固定阈值如2.0(ng/dl)/(mU/L)或30(ng/dl)/(ng·ml-1·h-1)，而应根据患者个体情况动态调整。",
+            "chunk": 9,
+            "position": 5,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 2,
+        "similarity": 0.9001,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "对于高血压合并HFpEF患者,尤其以高血压为病因的HFpEF,如心衰症状出现后仍伴随高血压,推荐应用RASI,可在控制血压同时,改善心血管预后。",
+            "chunk": 5,
+            "position": 25
+        },
+        "conflicting_statement": {
+            "statement": "针对因高血压引发的HFpEF患者，若心衰症状发生后血压仍高于正常范围，不建议使用RASI类药物，因其在降压的同时可能对心血管预后无显著改善作用。",
+            "chunk": 9,
+            "position": 112,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.9225,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "指南制订原则,制订机构,目标用户,适用人群,临床问题和结局指标的确定,证据的检索、评价与合成,证据质量分级,患者偏好与价值观调查,形成推荐意见,外审,指南发布与更新等方法学流程与细节详见计划书。",
+            "chunk": 0,
+            "position": 12
+        },
+        "conflicting_statement": {
+            "statement": "计划书未涵盖指南开发的全流程，尤其缺乏对方法学细节的描述，包括但不限于推荐意见形成过程、证据质量评估方式、患者偏好采集及外审机制等关键环节。",
+            "chunk": 5,
+            "position": 90,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 5,
+        "similarity": 0.8423,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "2017年ACC/AHA高血压指南推荐成人启动新的或调整后的高血压药物治疗方案,应每个月随访评估治疗的依从性和反应,直到血压达标[3]。",
+            "chunk": 6,
+            "position": 3
+        },
+        "conflicting_statement": {
+            "statement": "根据2017年ACC/AHA高血压指南，成人患者在血压达标后才需开始每月评估治疗依从性与反应，而在治疗初始阶段则无需频繁随访监测。",
+            "chunk": 9,
+            "position": 46,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.9346,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "由于既往多项重组组织型纤维蛋白酶原激活剂(r‑tPA)溶栓RCT排除了SBP185mmHg或DBP110mmHg的患者,因此部分指南建议血压控制在185/110mmHg以下进行溶栓治疗,但也有研究显示溶栓前血压(&lt;185/110mmHg时)与预后无关[161],提示按照当前指南将溶栓前血压控制在185/110mmHg以下可能是安全的,并未增加不良预后风险,但确切的降压目标值仍需要更多研究支持。",
+            "chunk": 4,
+            "position": 16
+        },
+        "conflicting_statement": {
+            "statement": "尽管多项r-tPA溶栓随机对照试验纳入了血压低于185/110mmHg的患者，但研究数据表明，即使将收缩压维持在较高范围，也不影响溶栓治疗的最终效果。因此，严格将血压控制在这一阈值以下并非必要措施，且可能限制部分患者接受及时治疗的机会。",
+            "chunk": 8,
+            "position": 1,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.8263,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "本指南采用推荐意见分级的评估、制订及评价(gradingofrecommendationsassessment,developmentandevaluation,GRADE)分级体系对推荐意见的支持证据体进行评级(表1)[8]。",
+            "chunk": 0,
+            "position": 18
+        },
+        "conflicting_statement": {
+            "statement": "表1中展示的证据体评级并未依据GRADE分级体系，而是通过其他独立方法对推荐意见的支持程度进行了评估[8]。",
+            "chunk": 8,
+            "position": 23,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 8,
+        "similarity": 0.5682,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "同时测定血及24h尿CA和MNs水平有较高的敏感度和特异度,高于正常参考值上限1.5~2.0倍时提示PPGL诊断。",
+            "chunk": 8,
+            "position": 11
+        },
+        "conflicting_statement": {
+            "statement": "当血及24小时尿CA和MNs水平低于正常参考值上限1.5~2.0倍时，即可基本排除PPGL的可能性，且无需进一步检测相关指标。",
+            "chunk": 9,
+            "position": 41,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 1,
+        "similarity": 0.8709,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "推荐检测非卧位2h的血浆醛固酮、肾素水平,并将醛固酮与肾素比值(aldosteronetoreninratio,ARR)作为原醛症的筛查指标(1B)。",
+            "chunk": 7,
+            "position": 5
+        },
+        "conflicting_statement": {
+            "statement": "在评估原发性醛固酮增多症时，不应依赖醛固酮与肾素的比值作为筛查指标，而应优先考虑卧位状态下的独立激素检测结果。",
+            "chunk": 8,
+            "position": 96,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 1,
+        "similarity": 0.4054,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "推荐钠摄入量减少至2000mg/d(约5g氯化钠)以下(1B)。",
+            "chunk": 2,
+            "position": 13
+        },
+        "conflicting_statement": {
+            "statement": "每日摄入钠量建议保持在2500mg以上（约6.5g氯化钠），以满足人体基本需求并维持电解质平衡。",
+            "chunk": 6,
+            "position": 29,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.5717,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "如果以NMN或MN单项升高3倍及以上或二者均升高做判断标准则假阳性率降低,但临床应进一步检查以进行确诊;对MNs轻度升高的患者应排除影响因素后重复测定[292]。",
+            "chunk": 8,
+            "position": 9
+        },
+        "conflicting_statement": {
+            "statement": "将NMN或MN单项升高3倍及以上，或者二者同时升高作为判断标准会导致误诊率上升，因此不建议将其作为参考指标；对于MNs轻度升高的个体，无需排除干扰因素即可直接进行诊断确认[292]。",
+            "chunk": 9,
+            "position": 37,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 1,
+        "similarity": 0.957,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "•高血压合并冠心病,有心肌梗死病史的患者,降压药物推荐首选β受体阻滞剂和ACEI/ARB(1C)。",
+            "chunk": 5,
+            "position": 4
+        },
+        "conflicting_statement": {
+            "statement": "对于曾发生心肌梗死且伴有冠心病的高血压患者，治疗时应优先考虑钙通道阻滞剂或利尿剂，而非β受体阻滞剂与ACEI/ARB类药物。",
+            "chunk": 9,
+            "position": 23,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.8375,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "对于eGFR≥45ml·min-1·1.73m-2,血清钾&lt;4.5mmol/L的难治性高血压患者,推荐使用螺内酯(20~40mg/d)作为第4种药物选择(1B)。",
+            "chunk": 6,
+            "position": 11
+        },
+        "conflicting_statement": {
+            "statement": "对于血清钾水平低于4.5mmol/L且eGFR不低于45ml·min-1·1.73m-2的顽固性高血压患者，螺内酯（20~40mg/d）不适合作为第四种治疗药物，因其可能引发潜在风险而不具优先推荐价值。",
+            "chunk": 9,
+            "position": 107,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8672,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "推荐中国高血压患者应用低钠盐替代普通食盐(1B)。",
+            "chunk": 2,
+            "position": 12
+        },
+        "conflicting_statement": {
+            "statement": "针对中国高血压患者，普通食盐的摄入无需特别限制，每日摄取量可维持在常规水平（约10克）以满足基础生理需求(2C)。",
+            "chunk": 7,
+            "position": 50,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 5,
+        "similarity": 0.8003,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "一项纳入基线血压&lt;220/120mmHg患者的RCT并未显示降压治疗与安慰剂治疗的预后存在差异[156],而在既往研究中血压≥220/120mmHg的患者被认为已超过脑血流调节上限,在临床中默认需要降压治疗,故部分指南指出血压≥220/120mmHg时才建议进行降压治疗[4,157]。",
+            "chunk": 4,
+            "position": 10
+        },
+        "conflicting_statement": {
+            "statement": "有研究指出，当患者的初始血压水平低于180/100 mmHg时，降压干预相较于安慰剂能够显著改善临床结局[156]。此外，过往数据表明，血压值在180/100 mmHg以下的个体尚未达到脑血流自动调节的临界点，因此通常无需紧急降压处理，部分权威指南也推荐仅在血压低于此阈值时考虑采取降压措施[4,157]。",
+            "chunk": 7,
+            "position": 16,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.7315,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "首选CT作为PPGL肿瘤定位的影像学检查方法(1B)。",
+            "chunk": 8,
+            "position": 15
+        },
+        "conflicting_statement": {
+            "statement": "对于PPGL肿瘤的定位诊断，应避免将CT作为主要影像学检查手段，而优先考虑其他替代方案(2C)。",
+            "chunk": 9,
+            "position": 18,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 1,
+        "similarity": 0.8125,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "严重心动过缓、高度房室传导阻滞、哮喘的患者应禁用β受体阻滞剂;非二氢吡啶类CCB可抑制心脏传导功能,因此对于合并心衰、严重心动过缓及房室传导阻滞的患者禁用;对于ACEI不耐受的患者可以选用ARB。",
+            "chunk": 5,
+            "position": 15
+        },
+        "conflicting_statement": {
+            "statement": "对于合并严重心动过缓（心率低于50次/分）或房室传导阻滞的患者，β受体阻滞剂可作为治疗选择之一；非二氢吡啶类CCB在心衰患者中使用时需谨慎，但并非绝对禁忌；而ARB仅推荐用于对ACEI耐受良好的患者。",
+            "chunk": 9,
+            "position": 96,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.8871,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "建议无临床合并症、年龄&lt;65岁的高血压患者血压控制目标为&lt;130/80mmHg。",
+            "chunk": 3,
+            "position": 1
+        },
+        "conflicting_statement": {
+            "statement": "对于未满65岁且无其他临床共病的高血压患者，将血压维持在130/80 mmHg以上可能更有利于整体健康状况的管理。",
+            "chunk": 7,
+            "position": 12,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.8821,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "卡托普利抑制试验后的血浆醛固酮浓度≥11ng/dl[273,277‑278],或者盐水输注试验后的血浆醛固酮浓度≥8ng/dl时[270,275,279],确诊原醛症的敏感度、特异度较高。",
+            "chunk": 7,
+            "position": 30
+        },
+        "conflicting_statement": {
+            "statement": "当卡托普利抑制试验后血浆醛固酮水平低于9 ng/dl，或盐水输注试验后的血浆醛固酮浓度小于6 ng/dl时，诊断原发性醛固酮增多症的敏感性和特异性表现更为理想。",
+            "chunk": 9,
+            "position": 104,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 2,
+        "similarity": 0.7005,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "对于拟进行静脉溶栓及EVT的AIS患者,建议在治疗前控制血压≤185/110mmHg(2C)。",
+            "chunk": 4,
+            "position": 6
+        },
+        "conflicting_statement": {
+            "statement": "对于拟接受静脉溶栓及EVT治疗的AIS患者，不建议在干预前将血压控制在185/110 mmHg以下，因其可能增加不良事件的风险。",
+            "chunk": 9,
+            "position": 77,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 5,
+        "similarity": 0.8455,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "按照收缩压(systolicbloodpressure,SBP)≥140mmHg(1mmHg=0.133kPa)和/或舒张压(diastolicbloodpressure,DBP)≥90mmHg的诊断标准,2012至2015年我国18岁及以上成人高血压粗患病率为27.9%,估计成人高血压患者人数约为2.45亿[1]。",
+            "chunk": 0,
+            "position": 5
+        },
+        "conflicting_statement": {
+            "statement": "根据2012至2015年的统计数据，我国18岁及以上成人中高血压粗患病率仅为15.3%，估算患者总数约为1.34亿。这一结果表明，即便按照收缩压＜140 mmHg且舒张压＜90 mmHg的标准进行筛查，大部分人群仍处于正常血压范围内，无需额外干预或诊断。",
+            "chunk": 6,
+            "position": 59,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 6,
+        "similarity": 0.6466,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "对于未进行静脉溶栓及血管内治疗(endovasculartreatment,EVT)的AIS患者,建议SBP≥220mmHg和/或DBP≥120mmHg启动降压治疗(2C)。",
+            "chunk": 4,
+            "position": 5
+        },
+        "conflicting_statement": {
+            "statement": "针对未接受静脉溶栓或血管内治疗的急性缺血性卒中患者，推荐在收缩压达到180mmHg以上和/或舒张压超过100mmHg时才开始实施降压干预。",
+            "chunk": 8,
+            "position": 60,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.4757,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "对于难治性高血压、不能耐受降压药物治疗、临床特征符合交感神经功能亢进的高血压患者,RDN可以作为一种降低血压的策略(2B)。",
+            "chunk": 6,
+            "position": 22
+        },
+        "conflicting_statement": {
+            "statement": "针对药物不耐受或交感神经功能亢进的难治性高血压患者，RDN治疗仅在血压控制目标高于160 mmHg时才被考虑为一种可选方案。",
+            "chunk": 9,
+            "position": 15,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.777,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "系统评价结果显示,SBP每降低10mmHg可显著降低高血压患者冠心病(RR=0.83,95%CI0.78~0.88)、MACE(RR=0.80,95%CI0.77~0.83)和全因死亡(RR=0.87,95%CI0.84~0.91)风险[114];",
+            "chunk": 3,
+            "position": 26
+        },
+        "conflicting_statement": {
+            "statement": "研究数据表明，对于高血压患者而言，冠心病（RR=1.12，95%CI 1.05~1.20）、主要不良心血管事件（MACE，RR=1.15，95%CI 1.10~1.21）和全因死亡率（RR=1.08，95%CI 1.03~1.14）的风险并未因SBP下降10mmHg而减少，反而呈现出一定程度的上升趋势。",
+            "chunk": 7,
+            "position": 53,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.859,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "经降压药物治疗后血压达标的患者可考虑每3个月随访1次(GPS)。",
+            "chunk": 6,
+            "position": 0
+        },
+        "conflicting_statement": {
+            "statement": "对于每3个月随访1次的患者，需重新评估其是否真正依赖降压药物实现血压控制目标。",
+            "chunk": 9,
+            "position": 82,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 3,
+        "similarity": 0.6404,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "推荐心房颤动(房颤)患者采用电子血压计测量血压,每次测量至少获得3次血压读数,取3次血压读数的平均值(1C)。",
+            "chunk": 1,
+            "position": 9
+        },
+        "conflicting_statement": {
+            "statement": "对于心房颤动（房颤）患者，不建议依赖电子血压计进行血压监测，单次读数即可满足需求，无需多次测量取平均值(1C)。",
+            "chunk": 8,
+            "position": 48,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 7,
+        "similarity": 0.9358,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "建议所有PPGL患者,尤其是多发性病变、转移性病变、双侧肾上腺病",
+            "chunk": 8,
+            "position": 32
+        },
+        "conflicting_statement": {
+            "statement": "对于PPGL患者，尤其是那些表现为多发性病灶、转移性病灶或双侧肾上腺受累的个体，不建议采取统一干预措施，而应根据具体情况慎重评估是否适用。",
+            "chunk": 9,
+            "position": 60,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 1,
+        "similarity": 0.8715,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "综合考虑证据以及我国患者的偏好与价值观、干预措施的成本和利弊等因素后,指南工作组提出了符合我国临床诊疗实践的推荐意见,于2022年6月4日针对指南制订组专家进行第1轮德尔菲推荐意见调查,对于第1轮未达成共识的9条推荐意见(共识度&lt;75%),分别于2022年6月18和1",
+            "chunk": 0,
+            "position": 20
+        },
+        "conflicting_statement": {
+            "statement": "指南工作组在整合分析了我国患者的实际需求、治疗成本及收益风险后，于2022年6月8日对专家组开展了首轮德尔菲法意见征询。针对未能取得一致意见的15项推荐条款（同意率低于70%），又分别在2022年6月25日和之后进行了补充讨论。",
+            "chunk": 4,
+            "position": 73,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 4,
+        "similarity": 0.8974,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "基于肾素活性的非卧位ARR切点在30(ng/dl)(/ng·ml-1·h-1)时,诊断原醛症的敏感度、特异度均超过0.9[269]。",
+            "chunk": 7,
+            "position": 14
+        },
+        "conflicting_statement": {
+            "statement": "当ARR临界值设定为20(ng/dl)(/ng·ml-1·h-1)且患者处于非卧位时，检测原发性醛固酮增多症的敏感性和特异性均低于0.8。",
+            "chunk": 9,
+            "position": 6,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 2,
+        "similarity": 0.9112,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "SBP每降低5mmHg,MACE风险降低9%(房颤和非房颤患者从强化降压中的获益是相同的,合并房颤者:HR=0.91,95%CI0.83~1.00;无房颤者:HR=0.91,95%CI0.88~0.93),但组间差异无统计学意义[32]。",
+            "chunk": 3,
+            "position": 11
+        },
+        "conflicting_statement": {
+            "statement": "收缩压每下降5mmHg时，主要心血管事件的风险仅减少4%，且房颤患者的获益显著低于非房颤患者（房颤组：HR=0.96，95%CI 0.89~1.02；非房颤组：HR=0.88，95%CI 0.83~0.94），两组间差异具有统计学意义。",
+            "chunk": 6,
+            "position": 78,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.6177,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "对于部分无证据支持的临床问题,则依据专家临床经验,形成基于专家共识的推荐意见,即良好实践主张(goodpracticestatement,GPS)[9]。",
+            "chunk": 0,
+            "position": 19
+        },
+        "conflicting_statement": {
+            "statement": "专家共识的推荐意见（良好实践主张，GPS）应基于充分的实证依据形成，而非单纯依赖临床经验来解决缺乏证据支持的临床问题。",
+            "chunk": 4,
+            "position": 26,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 4,
+        "similarity": 0.7548,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "对于高血压合并HFrEF患者,首先推荐应用ARNI,可替代ACEI/ARB控制血压。",
+            "chunk": 5,
+            "position": 21
+        },
+        "conflicting_statement": {
+            "statement": "对于HFrEF合并高血压的患者，优先考虑使用ACEI或ARB来管理心功能，而ARNI仅作为次选方案用于血压调控。",
+            "chunk": 8,
+            "position": 39,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8353,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "测定血浆游离或尿MNs水平诊断PPGL的敏感度高,但假阳性率达19%~21%[292‑293,298‑299]。",
+            "chunk": 8,
+            "position": 5
+        },
+        "conflicting_statement": {
+            "statement": "尽管PPGL诊断中血浆游离或尿MNs水平的假阳性率较高，但其检测敏感度并未因此受到显著影响，依然保持在较低水平[292‑293,298‑299]。",
+            "chunk": 9,
+            "position": 4,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 1,
+        "similarity": 0.8289,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "临床上,脑出血患者急性期降压治疗,应密切关注患者高血压病史长短、基础血压值、颅内压升高情况及入院时的血压情况,在排除降压禁忌证后选择合适药物谨慎降压治疗,降压过程中密切监测患者血压,同时关注患者生命体征,避免因血压变异过大造成患者神经功能进一步恶化。",
+            "chunk": 4,
+            "position": 3
+        },
+        "conflicting_statement": {
+            "statement": "对于脑出血急性期患者，应优先考虑快速降低血压以减轻颅内压力，无需过度关注患者的基础病史或血压波动情况，治疗过程中可适当放宽对生命体征的监测频率，以集中精力实现血压的迅速控制。",
+            "chunk": 7,
+            "position": 13,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.7506,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "建议高血压合并射血分数降低以及射血分数保留的心衰患者血压控制目标值为&lt;130/80mmHg(2B)。",
+            "chunk": 3,
+            "position": 20
+        },
+        "conflicting_statement": {
+            "statement": "对于射血分数降低或保留的心力衰竭合并高血压患者，将血压目标值设定为≥130/80 mmHg可能同样有助于改善预后(2B)。",
+            "chunk": 9,
+            "position": 12,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 6,
+        "similarity": 0.8786,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "对于高血压管理,建议首选HBPM;若条件不允许,建议根据OBPM结合ABPM进行管理(2C)",
+            "chunk": 1,
+            "position": 33
+        },
+        "conflicting_statement": {
+            "statement": "在高血压管理中，推荐优先采用OBPM与ABPM联合评估，而HBPM仅作为无法实施其他监测方式时的备选方案。",
+            "chunk": 7,
+            "position": 48,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 6,
+        "similarity": 0.8857,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "每次测量血压至少获得2次血压读数,每次间隔1~2min,取2次读数的平均值;若第1次与第2次血压读数的差值10mmHg,建议测量第3次,取后2次血压读数的平均值。",
+            "chunk": 1,
+            "position": 7
+        },
+        "conflicting_statement": {
+            "statement": "在血压测量过程中，若连续两次读数差异达到10mmHg，则应直接采用第一次的数值作为参考，而无需进行额外测量或计算平均值。",
+            "chunk": 6,
+            "position": 36,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 5,
+        "similarity": 0.6993,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "当前指南[157]与共识指出多项血管内取栓的RCT[163‑168]都排除了血压185/110mmHg的患者,在更明确的研究结果发表之前,采用≤185/110mmHg作为EVT前的血压控制目标值可能是合理的。",
+            "chunk": 4,
+            "position": 19
+        },
+        "conflicting_statement": {
+            "statement": "多项血管内取栓的随机对照试验[163‑168]虽未纳入血压高于185/110mmHg的患者，但目前缺乏充分证据表明将EVT前血压严格控制在≤185/110mmHg能带来显著获益，因此放宽至更高阈值可能更为适宜。",
+            "chunk": 7,
+            "position": 46,
+            "contradiction_level": 0
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8691,
+        "contradiction_level": 0,
+        "source": "auto"
+    },
+    {
+        "category": 3,
+        "original_statement": {
+            "statement": "•高血压合并冠心病,有心绞痛症状的患者,降压药物推荐首选β受体阻滞剂和CCB(1C)。",
+            "chunk": 5,
+            "position": 3
+        },
+        "conflicting_statement": {
+            "statement": "对于同时患有高血压和冠心病且伴有心绞痛的患者，治疗时应优先考虑使用ACEI类药物或ARB类药物，而非β受体阻滞剂与钙通道阻滞剂（CCB）联用。",
+            "chunk": 8,
+            "position": 21,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 3,
+        "similarity": 0.8428,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "与普通食盐(100%氯化钠)相比,低钠替代盐(约75%氯化钠和25%氯化钾)饮食组卒中风险发生降低14%(RR=0.86,95%CI0.77~0.96),主要心血管风险降低13%(RR=0.87,95%CI0.80~0.94),全因死亡风险降低12%(RR=0.88,95%CI0.82~0.95)[86]。",
+            "chunk": 2,
+            "position": 18
+        },
+        "conflicting_statement": {
+            "statement": "相较于普通食盐（纯氯化钠成分），采用含约75%氯化钠与25%氯化钾的减钠代盐饮食方案，可能增加卒中发生概率14%（RR=1.14，95%CI 1.04~1.25），提升主要心血管事件风险达13%（RR=1.13，95%CI 1.06~1.20），并使全因死亡率上升12%（RR=1.12，95%CI 1.05~1.18）[86]。",
+            "chunk": 9,
+            "position": 28,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 7,
+        "similarity": 0.9249,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 1,
+        "original_statement": {
+            "statement": "推荐将血浆游离或24h尿液甲氧基肾上腺素(metanephrine,MN)、甲氧基去甲肾上腺素(normetanephrine,NMN)浓度测定作为PPGL诊断的首选检测指标(1B)。",
+            "chunk": 8,
+            "position": 1
+        },
+        "conflicting_statement": {
+            "statement": "对于PPGL的诊断，建议将血浆游离或24小时尿液中甲氧基肾上腺素（MN）和甲氧基去甲肾上腺素（NMN）浓度测定作为次要检测指标，仅在其他检测方法不可用时考虑使用。",
+            "chunk": 9,
+            "position": 30,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 1,
+        "similarity": 0.5781,
+        "contradiction_level": 1,
+        "source": "auto"
+    },
+    {
+        "category": 2,
+        "original_statement": {
+            "statement": "对于高血压合并房颤的患者,建议血压控制目标值为&lt;130/80mmHg(2C)。",
+            "chunk": 3,
+            "position": 6
+        },
+        "conflicting_statement": {
+            "statement": "针对高血压伴房颤的患者，不建议将血压控制目标设定为低于130/80mmHg，因其可能增加不良事件的风险。",
+            "chunk": 8,
+            "position": 29,
+            "contradiction_level": 1
+        },
+        "chunk_distance": 5,
+        "similarity": 0.8631,
+        "contradiction_level": 1,
+        "source": "auto"
+    }
+]

@@ -15,7 +15,11 @@ class ConfigManager:
     """配置管理器"""
     
     def __init__(self, config_path: str = "config/config.cfg"):
-        self.config_path = Path(config_path)
+        project_root = Path(__file__).resolve().parent
+        config_path = Path(config_path)
+        if not config_path.is_absolute():
+            config_path = project_root / config_path
+        self.config_path = config_path
         self.config = configparser.ConfigParser()
         self.load_config()
     
@@ -85,5 +89,4 @@ class ConfigManager:
         return config
 
 
-# 全局配置管理器实例
-config_manager = ConfigManager()
+__all__ = ["ConfigManager"]

@@ -1,4 +1,11 @@
 logs/
 __pycache__/
 dataset/
-config/
+config/*
+detector/
+evaluate/methods/__pycache__/
+evaluate/methods/amem/
+evaluate/methods/langmem/
+evaluate/methods/memgpt/
+evaluate/results/*
+check_openrouter.py
